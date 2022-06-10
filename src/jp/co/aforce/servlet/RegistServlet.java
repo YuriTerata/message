@@ -13,7 +13,7 @@ import jp.co.aforce.dao.MemberDAO;
 import jp.co.aforce.tool.Message;
 import jp.co.aforce.tool.NullCheck;
 
-@WebServlet("/SearchServlet")
+@WebServlet("/RegistServlet")
 public class RegistServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
